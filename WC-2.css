@@ -1,0 +1,123 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : 14 Nov, 2024, 10:42:26 AM
+    Author     : dr. priyanka verma
+*/
+
+
+    
+    body{
+        margin: 0%;
+        width: 100%;
+            
+    }
+    .Main{
+       display: flex;
+       justify-content: center;
+            
+    }
+    .div1 h2 , .div3 h2{
+         text-align: center;
+         padding: calc(5%);
+         text-decoration: none;
+         font-size: 130%;
+         font-weight: bold;
+    }
+    .div2 h2{
+      text-align: center;
+      padding: calc(5%);
+      font-size: 130%;
+      font-weight: bold;
+ }
+    .info_containner{
+       width: 90%;
+       display: flex;
+       height: 600px;
+       background-color: rgb(250, 250, 247);
+       margin: 2%;
+       justify-content: space-evenly;
+       flex-direction: column;
+
+    }
+    .div1, .div2, .div3{
+        width: 100%;
+        display: flex;
+        justify-content: space-evenly;
+       flex-direction: row;
+    }
+    .info_containner1{
+       text-align: center;
+       color:white;
+       width: 40%;
+       height: 140px;
+       float: left;
+       background-color: rgb(244, 18, 86);  
+       border-top-right-radius: 20px;
+       
+    }
+    .info_containner1:hover{
+     width: 42%;
+     cursor: pointer;
+      
+    }
+    .info_containner2:hover{
+        width: 42%;
+        cursor: pointer;
+         
+       }
+       .info_containner3:hover{
+        width: 42%;
+        cursor: pointer;
+         
+       }
+       .info_containner4:hover{
+        width: 42%;
+        cursor: pointer;
+         
+       }
+       .info_containner5:hover{
+         width: 42%;
+         cursor: pointer;
+          
+        }
+    .info_containner2{
+       text-align: center;
+       color:white;
+       width: 40%;
+       float: right;
+       height: 140px;
+       background-color: rgb(248, 9, 208);
+       border-top-left-radius: 20px; 
+    }
+    .info_containner3{
+       text-align: center;
+       color:white;
+       width: 40%;
+       height: 140px;
+       background-color: rgb(167, 72, 230);
+       border-bottom-right-radius: 20px;
+    }
+    .info_containner4{
+       text-align: center;
+       color:white;
+       width: 40%;
+       height: 140px;
+       background-color: rgb(9, 184, 248);   
+       border-bottom-left-radius: 20px;
+    }
+    .info_containner5{
+      text-align: center;
+      color:white;
+      width: 40%;
+      height: 140px;
+      background-color: rgb(248, 33, 9);   
+      border-bottom-left-radius: 20px;
+      border-top-right-radius: 20px;
+   }
+   a{
+       text-decoration: none;
+   }

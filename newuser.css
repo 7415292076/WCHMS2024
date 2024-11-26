@@ -1,0 +1,75 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : 16 Nov, 2024, 4:57:29 PM
+    Author     : dr. priyanka verma
+*/
+
+        body{
+            margin: 0;
+            padding: 0;
+            display:flex;
+            justify-content: center;
+            background-color: rgb(85, 33, 133);
+            width: 100%;
+        }
+        .new{
+            margin:10%;
+            width: 40%;
+            height: 600px;
+            border-radius: 5px;
+             color: white;
+            background: rgb(227, 220, 134);
+            display: block;
+            position: absolute;
+        }
+        label{
+            width: 110%;
+            text-align: left;
+            font-size: 120%;
+             padding: 3%;
+            font-weight: bold;
+        }
+         input{
+            width: 100%;
+            border-radius: 5px;
+            padding: 4%;
+        }
+        select{
+             width: 110%;
+             padding: 4%;
+              border-radius: 5px;
+        }
+        form{
+            margin: 10%;
+           
+        }
+        table{
+            position: absolute;
+        }
+        td{
+           padding: 1%;
+           width: 50%;
+        }
+        h3{
+            color: blue;
+            font-size: 150%;
+        }
+        hr{
+            height: 5px;
+            background-color: red;
+            margin-bottom: 5%;
+        }
+        button{
+            height: 30px;
+            width: 50%;
+            border-radius: 5px;
+            background-color: blue;
+            color: white;
+            font-size: 100%;
+            margin-top: 10%;
+            margin-left: 10%;
+        }
